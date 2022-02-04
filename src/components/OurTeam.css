@@ -1,0 +1,48 @@
+.team-wrapper{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.single-member-div{
+    border: 1px solid #D3B55B;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    width: 100%;
+}
+.member-image{
+    width: 100%;
+    margin-top: -30%;
+}
+.team-text1{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+    font-family: "Orbitron", sans-serif;
+
+}
+.team-text2{
+    font-size: 16px;
+    color: #D3B55B;
+    margin-top: -18px;
+}
+.team-text3{
+    font-size: 14px;
+    color: white;
+}
+.social-btn-member{
+    margin-right: 15px;
+    width: 30px;
+}
+.social-btn-member:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px){
+.single-member-div{
+    margin-left:5px;
+}
+}
+

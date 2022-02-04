@@ -1,0 +1,23 @@
+.aboutus-wrapper{
+    background-color: #111111;
+}
+.aboutus-left{
+    padding-top: 60px;
+}
+.about-us-text{
+    color: white;
+    font-size: 16px;
+    margin-right: 10%;
+}
+.box-style{
+    position: absolute;
+    left: -20px;
+    top: 1450px;
+}
+
+/* RESPONSIVE QUERIES FOR CSS */
+@media only screen and (max-width: 800px){
+    .box-style{
+        display: none;
+    }
+}

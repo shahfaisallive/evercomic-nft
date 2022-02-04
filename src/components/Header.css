@@ -1,0 +1,58 @@
+.header-wrapper{
+    height:auto;
+    width: auto;
+    background-color: black;
+    padding-top: 48%;
+    padding-bottom: 80px;
+}
+.text2{
+    color: white;
+    font-size: 22px;
+}
+.title-text{
+    color: #D3B55B;
+    font-size: 60px;
+    margin-top: -1%;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+}
+.basic-text{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #DEDEDE;
+}
+.bgfig{
+    position: absolute;
+    right: 0px;
+    top: 880px;
+    z-index: 2;
+}
+
+#discordbtn{
+    margin-right: 15px;
+}
+
+
+
+
+/* RESPONSIVE QUERIES FOR CSS */
+@media only screen and (max-width: 800px){
+	.bgfig{
+        display: none;
+    }
+    #discordbtn{
+        margin-right: 0px;
+    }
+    .header-wrapper{
+        padding-top: 55%;
+        margin-top: 10%;
+    }
+    .title-text{
+        font-size: 50px;
+    }
+    .basic-text{
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #DEDEDE;
+    }
+}

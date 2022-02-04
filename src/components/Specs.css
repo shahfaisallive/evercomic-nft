@@ -1,0 +1,54 @@
+.specs-wrapper{
+    background-color: #111111;
+}
+.specs-left{
+    padding-top: 60px;
+}
+.specs-text{
+    color: white;
+    font-size: 16px;
+    margin-right: 10%;
+}
+.single-perk{
+    width: 100%;
+    border: 1px solid #D3B55B;
+    border-radius: 5px;
+    padding: 20px 20px 15px 10px;
+    margin-top: 25px;
+}
+
+.perk-imglogo{
+    width: 70px;
+}
+
+.perk-text1{
+    color: #D3B55B;
+    font-size: 18px;
+    font-family: "Orbitron", sans-serif;
+}
+.perk-text2{
+    color: white;
+    font-size: 14px;
+}
+
+#spec-social-btn{
+    margin-left: 15px;
+}
+
+
+/* RESPONSIVE QUERIES FOR CSS */
+@media only screen and (max-width: 600px){
+	.perk-imglogo{
+        margin-bottom: 10px;
+        position: absolute;
+        right: 0px;
+        width: 30px;
+    }.perk-text1{
+        margin-right: 6%;
+        font-size: 16px;
+    }
+    #spec-social-btn{
+        margin-left: 0px;
+    }
+    
+}

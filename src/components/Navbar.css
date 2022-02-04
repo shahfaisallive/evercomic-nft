@@ -1,0 +1,19 @@
+.navbar{
+    background-color: black;
+    font-family: "Orbitron", sans-serif;
+}
+.logo-img{
+    width: 135px;
+}
+.text_one{
+    color: #D3B55B;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.text_one:hover{
+    cursor: pointer;
+    color: rgb(143, 123, 64);
+}
+.toggle-btn{
+    background-color: #D3B55B ;
+}

@@ -1,0 +1,39 @@
+.faqs-wrapper{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.faq-single-div{
+    border: 1px solid #D3B55B;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.faq-text1{
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.drop-icon{
+    width: 20px;
+    position: absolute;
+    right: 40px;
+    margin-top: 2px;
+}
+.faq-text2{
+    font-size: 14px;
+    color: #A4A4A4;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-left: 6px;
+    padding-right: 10px;
+}
