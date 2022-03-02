@@ -71,11 +71,11 @@ const Specs = () => {
                             <div className='col-sm-10' >
                                 <p className='perk-text1'>Physical Coin</p>
                                 <p className='perk-text2'>As an NFT holder, regardless of the number of NFTs acquired, you qualify to receive a physical coin.
+                                <div className=''>
                                 <br/>
-                            <br/>
-                            <br/>
-                        
-
+                                <br/>
+                       
+                                </div>
                                 </p>
                              
                  

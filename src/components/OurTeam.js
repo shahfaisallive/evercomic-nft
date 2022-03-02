@@ -66,7 +66,7 @@ const OurTeam = () => {
 
                   <p className="team-text3">
                   {showMore1 ? text[0] : `${text[0].substring(0,230)}`}
-                  <span className="team-text4 point" onClick={() => setShowMore1(!showMore1)}>{showMore1?` Show less`:` Show more`}</span>
+                  <span className="team-tex4 point" onClick={() => setShowMore1(!showMore1)}>{showMore1?` Show less`:` Show more`}</span>
                     
                   </p>
             
@@ -114,7 +114,7 @@ const OurTeam = () => {
                
                   <p className="team-text3"> 
                   {showMore2 ? text[1] : `${text[1].substring(0,230)}`}
-                  <span className="team-text4 point" onClick={() => setShowMore2(!showMore2)}>{showMore2?` Show less`:` Show more`}</span>
+                  <span className="team-tex4 point" onClick={() => setShowMore2(!showMore2)}>{showMore2?` Show less`:` Show more`}</span>
                     
                  
                   </p>
@@ -166,7 +166,7 @@ const OurTeam = () => {
                     
                   <p className="team-text3">
                   {showMore3 ? text[2] : `${text[2].substring(0,230)}`}
-                  <span className="team-text4 point" onClick={() => setShowMore3(!showMore3)}>{showMore3?` Show less`:` Show more`}</span>
+                  <span className="team-tex4 point" onClick={() => setShowMore3(!showMore3)}>{showMore3?` Show less`:` Show more`}</span>
                   </p>
                
                 <div className="row member-social-div d-flex justify-content-start pl-3 mt-4">
@@ -217,7 +217,7 @@ const OurTeam = () => {
                     
                   <p className="team-text3">
                   {showMore4 ? text[3] : `${text[3].substring(0,230)}`}
-                  <span className=" point team-text4" onClick={() => setShowMore4(!showMore4)}>{showMore4?` Show less`:` Show more`}</span>
+                  <span className=" point team-tex4" onClick={() => setShowMore4(!showMore4)}>{showMore4?` Show less`:` Show more`}</span>
                   </p>
                
                 <div className="row member-social-div d-flex justify-content-start pl-3 mt-4">
@@ -266,7 +266,7 @@ const OurTeam = () => {
                     
                   <p className="team-text3">
                   {showMore5 ? text[4] : `${text[4].substring(0,230)}`}
-                  <span className=" point team-text4" onClick={() => setShowMore5(!showMore5)}>{showMore5?` Show less`:` Show more`}</span>
+                  <span className=" point team-tex4" onClick={() => setShowMore5(!showMore5)}>{showMore5?` Show less`:` Show more`}</span>
                   </p>
               
                 <div className="row member-social-div d-flex justify-content-start pl-3 mt-4">
@@ -315,7 +315,7 @@ const OurTeam = () => {
                   <p className="team-text3">
                   
                   {showMore6 ? text[5] : `${text[5].substring(0,230)}`}
-                  <span className="point team-text4" onClick={() => setShowMore6(!showMore6)}>{showMore6?` Show less`:` Show more`}</span>
+                  <span className="point team-tex4" onClick={() => setShowMore6(!showMore6)}>{showMore6?` Show less`:` Show more`}</span>
                   </p>
             
 
