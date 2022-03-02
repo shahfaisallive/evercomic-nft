@@ -14,6 +14,10 @@
 .member-image{
     width: 100%;
     margin-top: -30%;
+    border-radius: 10px;
+}
+.point{
+    cursor: pointer;
 }
 .team-text1{
     font-size: 22px;
@@ -27,6 +31,11 @@
     font-size: 16px;
     color: #D3B55B;
     margin-top: -18px;
+}
+.team-text4{
+    font-size: 14px;
+    color: #D3B55B;
+ 
 }
 .team-text3{
     font-size: 14px;

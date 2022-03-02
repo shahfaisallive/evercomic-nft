@@ -11,7 +11,7 @@ const Specs = () => {
                 <div className='row container d-flex pb-4'>
                     <div className='col-md-6 specs-left'>
                         <p className='subheading'>NFT Specifications</p>
-                        <p className='specs-text'>Each of the ten (10) Golden Age comic heroes will release 5,555 NFTs available for acquisition, for a total of 55,550 covering all ten (10) of the comic heroes. These 55,555 NFTs will be limited editions representing all the superheroes and will be part of this project Genesis collection - that’s 5,555 NFTs for each one of the ten (10)  Golden Age comic.</p>
+                        <p className='specs-text'>Each of the ten (10) Golden Age comic heroes will release 5,555 NFTs available for acquisition, for a total of 55,550 covering all ten (10) of the comic heroes. These 55,555 NFTs will be limited editions representing all the superheroes and will be part of this project Genesis collection - that’s 5,555 NFTs for each one of the ten (10)  Golden Age comics.</p>
                         <p className='specs-text'>That’s where it gets really interesting.</p>
                         <p className='specs-text'>As superheroes have unique traits, so do each hero’s NFT. They are individual and codified to issue hundreds of traits randomly. The traits are specific to the hero’s skill tree and expressions, clothing, eye style and color, and much more. And there are rare NFTs to cover those super special traits.</p>
                         <p className='specs-text'>The NFTs will be released and stored on the Ethereum blockchain as ERC-721 tokens. </p>
@@ -45,8 +45,10 @@ const Specs = () => {
                             </div>
                             <div className='col-sm-10' >
                                 <p className='perk-text1'>Physical Metal Print</p>
-                                <p className='perk-text2'>NFT holders with 10 NFTs qualify to receive a physical metal print of the heroes of their choice. 10 NFTs qualify for two metal pints. These are highly sophisticated types of wall décor to show off your NFT in the real world.</p>
+                                <p className='perk-text2'>NFT holders with 10 NFTs qualify to receive a physical metal print of the heroes of their choice. These are highly sophisticated types of wall décor to show off your NFT in the real world.</p>
+                              
                             </div>
+                            
                         </div>
 
                         <div className='row single-perk'>
@@ -68,8 +70,17 @@ const Specs = () => {
                             </div>
                             <div className='col-sm-10' >
                                 <p className='perk-text1'>Physical Coin</p>
-                                <p className='perk-text2'>As an NFT holder, regardless of the number of NFTs acquired, you qualify to receive a physical Certificate of Authenticity with a code referring to your NFT on the blockchain.</p>
+                                <p className='perk-text2'>As an NFT holder, regardless of the number of NFTs acquired, you qualify to receive a physical coin.
+                                <br/>
+                            <br/>
+                            <br/>
+                        
+
+                                </p>
+                             
+                 
                             </div>
+                           
                         </div>
 
                         <div className='row single-perk'>

@@ -15,9 +15,7 @@ const Header = () => {
             <div className='row justify-content-center'>
                 <h1 className='title-text'>Ever Comic</h1>
             </div>
-            <div className='row justify-content-center'>
-                <p className='basic-text text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            </div>
+           
 
             <div className='row justify-content-center mt-5'>
                 <a href='https://opensea.io/EverComic' target={'_blank'} rel="noreferrer">
