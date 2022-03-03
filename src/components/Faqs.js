@@ -10,60 +10,69 @@ const Faqs = () => {
 
                 <div className='row'>
                     <div className='col-md-6'>
-                        <Accordion defaultActiveKey="1" >
+                    <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What is an NFT?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What are the NFT holders benefits?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                An NFT, or non-fungible token, is a digital asset representing a real-world item, which is comic-related in this instance.
+                             Ever Comic NFT holders benefits from several perks include: 
+                               <ul>
+                               <li>Membership to Ever Comic DAO</li>
+                               <li>Phisical coins  </li>
+                               <li>Physical painting (for qualified holders)</li>
+                               <li>Augmented reality app (for qualified holders)</li>
+                               <li>Giveaways and airdrops </li>
+                               <li>And much more.  </li>
+                               </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What are the NFT Benefits?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What is a NFT?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                When you buy an NFT, you buy a part of a digital asset. It offers a new or recurring revenue stream for the artists and ensures the preservation of the artwork in question. You buy a digital certificate in the blockchain that states you own the NFT.
+                                NFT tokens or “non-fungible tokens” provide unique qualities that set them apart from regular cryptocurrencies. 
+Each individual token can be used to authenticate ownership of digital assets such as artworks, recordings and even pets!
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
+                        
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
                                 <Accordion.Button bsPrefix='faq-text1 d-flex'>What is DAO?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                Unlike traditional currency regulated by a bank or government, cryptocurrency is decentralized. That means it is controlled primarily by computers. The information skipping across servers is untraceable, and DAO means Decentralized Autonomous Organization. 
+                                DAO is an organization that represents rules encoded as a transparent computer program, 
+controlled by the members and not influenced by any central government. 
+As there's no need for managers with this method of control it removes both bureaucracy or hierarchy hurdles from doing business in your country!
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What is a drop calendar?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What is the drop calendar?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                It is a calendar of upcoming drops only accessible by certain parties. 
+                                The calendar of drops will be communicated in our social media channels. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What is the price for NFTs?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What's the price?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                Both the public and pre-sale prices will be announced in our social media channels. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -72,28 +81,22 @@ const Faqs = () => {
                     <div className='col-md-6'>
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What about copyright concerns?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>What about copyright issues?
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                The characters used selected are part of the public domain, however the work that we are doing will be pratected by US copyright laws. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
                         <Accordion defaultActiveKey="1" >
                             <Accordion.Item eventKey="0" className='faq-single-div'>
-                                <Accordion.Button bsPrefix='faq-text1 d-flex'>Which blockchain will back the NFTs?
+                                <Accordion.Button bsPrefix='faq-text1 d-flex'>Which blockchain will host the NFT limited collections.
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                The NFT will be hosted within the Ethereum blockchain.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -104,10 +107,7 @@ const Faqs = () => {
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                The super heroes will be revealed in our social media channels to make sure to be in the know. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -119,10 +119,12 @@ const Faqs = () => {
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                Though the DAO will decide which project to move forward with, the following will be brought up to vote:
+                                <ul>
+                                <li>Comic series (heroes to pick)</li>
+                                <li>Metaverse investment </li>
+                                <li>Game developement </li>
+</ul>
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -133,10 +135,8 @@ const Faqs = () => {
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                EverComic OpenSea address is: 0x4318b0e762a0e8ea59ae2ee26c500a5054e79f62 .
+The heroes collection addresses will be revealed as they are released to the blockchain. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -147,10 +147,7 @@ const Faqs = () => {
                                     <img src={'/images/dropicon.png'} alt='drop icon' className='drop-icon' />
                                 </Accordion.Button>
                                 <Accordion.Body bsPrefix='faq-text2'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                Check all addresses from our link tree: <span className='clickmove' onClick={()=>window.location.href="https://withkoji.com/@EverComic"}>https://withkoji.com/@EverComic</span> 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

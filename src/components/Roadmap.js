@@ -34,8 +34,8 @@ const Roadmap = () => {
                     <div className='row'>
                         <div className='col-sm-6 rm-div2'>
                             <div className='rm-sub-div'>
-                                <p className='rm-text5'>Project Roadmap Q1 2022</p>
-                                <p className='rm-text4 font-weight-bold'>Completed:</p>
+                                {/* <p className='rm-text5'>Project Roadmap Q1 2022</p> */}
+                                <p className='rm-text5'>Completed:</p>
                                 <p className='rm-text4'>Project and business plans </p>
                                 <p className='rm-text4'>Team hiring (PM, Tech, Art, Marketing, etc.) </p>
                                 <p className='rm-text4'>Project kick-off </p>
@@ -49,8 +49,8 @@ const Roadmap = () => {
                                 <p className='rm-text4'>Developement workstream kick-off</p>
                             </div>
                             <div className='rm-sub-div'>
-                                <p className='rm-text5'>Project Roadmap Q3 2022</p>
-                                <p className='rm-text4 font-weight-bold'>Medium Term:</p>
+                                {/* <p className='rm-text5'>Project Roadmap Q3 2022</p> */}
+                                <p className='rm-text5'>Medium Term:</p>
                                 <p className='rm-text4'>Genesis Drop Wave 2 (5 characters x 5,555 NFTs = 27,775)</p>
                                 <p className='rm-text4'>DAO Subject Matter Experts (SMEs) hiring</p>
                                 <p className='rm-text4'>DAO creation</p>
@@ -60,8 +60,8 @@ const Roadmap = () => {
                         </div>
                         <div className='col-sm-6 rm-div-3'>
                         <div className='rm-sub-div'>
-                                <p className='rm-text5'>Project Roadmap Q2 2022</p>
-                                <p className='rm-text4 font-weight-bold'>Immediate Term:</p>
+                                {/* <p className='rm-text5'>Project Roadmap Q2 2022</p> */}
+                                <p className='rm-text5'>Immediate Term:</p>
                                 <p className='rm-text4'>Community engagement kick-off </p>
                                 <p className='rm-text4'>First 5 character reveal</p>
                                 <p className='rm-text4'>Drop calendar (1st wave) </p>
@@ -70,8 +70,8 @@ const Roadmap = () => {
                                 <p className='rm-text4'>Project update</p>
                             </div>
                             <div className='rm-sub-div'>
-                                <p className='rm-text5'>Project Roadmap Q4 2022</p>
-                                <p className='rm-text4 font-weight-bold'>Long Term:</p>
+                                {/* <p className='rm-text5'>Project Roadmap Q4 2022</p> */}
+                                <p className='rm-text5'>Long Term:</p>
                                 <p className='rm-text4'>Community Vote on Ever Comic Projects (book, movie, etc.)</p>
                                 <p className='rm-text4'>Additional Hiring</p>
                                 <p className='rm-text4'>Comic production and realization</p>

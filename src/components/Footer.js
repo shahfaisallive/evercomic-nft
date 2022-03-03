@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col-md-4'>
                         <img src={'/images/logo.png'} alt='logo' width={'140px'} className='footer-logo' />
-                        <p className='ft-text1 mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet</p>
+                       
 
                         <div className='row d-flex social-div-footer'>
                             <a href='https://twitter.com/EverComic_NFT' target={'_blank'}  rel="noreferrer"><TwitterIcon className='footer-icon-social' /></a>
@@ -87,11 +87,14 @@ const Footer = () => {
                                 <p className='ft-text2'>NewsLetter</p>
                                 <br />
                                 <p className='ft-text3'>Keep me up to date with content, updates and offers from Ever Comic.</p>
-                                <form className='d-flex'>
-                                    <input className='input-form' type='text' placeholder='Email Address' />
-                                    <Arrow className='arrow-icon' />
-
-                                </form>
+                                <a href='https://withkoji.com/@EverComic/d798' target={'_blank'}   rel="noreferrer">
+                                    <button className='ft-btn text-center'>
+                                        <Arrow className='ft-redirect'/>
+                                      
+                                   Read our NewsLetter
+                                    </button>
+                                </a>
+                               
 
                                 <a href='https://opensea.io/EverComic' target={'_blank'}   rel="noreferrer">
                                     <button className='ft-btn'>
