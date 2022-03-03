@@ -91,7 +91,7 @@ const Footer = () => {
                                     <button className='ft-btn text-center'>
                                         <Arrow className='ft-redirect'/>
                                       
-                                   Read our NewsLetter
+                                   Read NewsLetter
                                     </button>
                                 </a>
                                
