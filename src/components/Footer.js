@@ -26,7 +26,7 @@ const Footer = () => {
         element.scrollIntoView({ behavior: "smooth", block: "start" })
 
     }
-  
+
     const navRoadmapHandler = () => {
         const element = document.getElementById("roadmap");
         element.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -47,15 +47,15 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col-md-4'>
                         <img src={'/images/logo.png'} alt='logo' width={'140px'} className='footer-logo' />
-                       
+
 
                         <div className='row d-flex social-div-footer'>
-                            <a href='https://twitter.com/EverComic_NFT' target={'_blank'}  rel="noreferrer"><TwitterIcon className='footer-icon-social' /></a>
-                            <a href='https://www.instagram.com/evercomic/' target={'_blank'}  rel="noreferrer"><InstaIcon className='footer-icon-social' /></a>
-                            <a href='https://evercomic.medium.com/' target={'_blank'}  rel="noreferrer"><MediumIcon className='footer-icon-social' /></a>
-                            <a href='https://www.youtube.com/channel/UCoPEztKsE-3KkY6vjNjCwiw' target={'_blank'}  rel="noreferrer"><YoutubeIcon className='footer-icon-social' /></a>
-                            <a href='https://discord.gg/hPztNP34C9' target={'_blank'}  rel="noreferrer"><DiscordIcon className='footer-icon-social' /></a>
-                            <a href='https://opensea.io/EverComic' target={'_blank'}  rel="noreferrer"><OpenseaIcon className='footer-icon-social' /></a>
+                            <a href='https://twitter.com/EverComic_NFT' target={'_blank'} rel="noreferrer"><TwitterIcon className='footer-icon-social' /></a>
+                            <a href='https://www.instagram.com/evercomic/' target={'_blank'} rel="noreferrer"><InstaIcon className='footer-icon-social' /></a>
+                            <a href='https://evercomic.medium.com/' target={'_blank'} rel="noreferrer"><MediumIcon className='footer-icon-social' /></a>
+                            <a href='https://www.youtube.com/channel/UCoPEztKsE-3KkY6vjNjCwiw' target={'_blank'} rel="noreferrer"><YoutubeIcon className='footer-icon-social' /></a>
+                            <a href='https://discord.gg/hPztNP34C9' target={'_blank'} rel="noreferrer"><DiscordIcon className='footer-icon-social' /></a>
+                            <a href='https://opensea.io/EverComic' target={'_blank'} rel="noreferrer"><OpenseaIcon className='footer-icon-social' /></a>
                         </div>
                     </div>
 
@@ -69,6 +69,14 @@ const Footer = () => {
                                         <p className='ft-text3'>Email:</p>
                                         <p className='ft-text4'>hello@evercomic.com</p>
                                         <p className='ft-text4' style={{ marginTop: '-15px' }}>redeem@evercomic.com</p>
+
+                                        <p className='ft-text3'>Address:</p>
+                                        <p className='ft-text4'>8904 62nd Avenue #1009<br />
+                                            College Park, MD 20740<br />
+                                            USA</p>
+
+                                        <p className='ft-text3'>Telephone: </p>
+                                        <p className='ft-text4'>+1(202)796-8855</p>
                                     </div>
                                     <div className='col-6 quicklinks-div'>
                                         <p className='ft-text2'>Quick Links</p>
@@ -87,16 +95,16 @@ const Footer = () => {
                                 <p className='ft-text2'>NewsLetter</p>
                                 <br />
                                 <p className='ft-text3'>Keep me up to date with content, updates and offers from Ever Comic.</p>
-                                <a href='https://withkoji.com/@EverComic/d798' target={'_blank'}   rel="noreferrer">
+                                <a href='https://withkoji.com/@EverComic/d798' target={'_blank'} rel="noreferrer">
                                     <button className='ft-btn text-center'>
-                                        <Arrow className='ft-redirect'/>
-                                      
-                                   Read NewsLetter
+                                        <Arrow className='ft-redirect' />
+
+                                        Read NewsLetter
                                     </button>
                                 </a>
-                               
 
-                                <a href='https://opensea.io/EverComic' target={'_blank'}   rel="noreferrer">
+
+                                <a href='https://opensea.io/EverComic' target={'_blank'} rel="noreferrer">
                                     <button className='ft-btn'>
                                         <OpenseaIcon className='ft-btn-icon' />
                                         View on Opensea
